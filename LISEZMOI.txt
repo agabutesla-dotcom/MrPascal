@@ -1,0 +1,25 @@
+MR PASCAL — application Android (caisse, dépenses, rendez-vous)
+
+Ce dossier est le projet Android complet. Il faut le "compiler" une fois pour obtenir le fichier MrPascal.apk.
+
+MÉTHODE 1 — En ligne, gratuit, sans ordinateur puissant (GitHub)
+ 1. Créez un compte gratuit sur github.com.
+ 2. Cliquez « New repository », nommez-le MrPascal, puis « uploading an existing file ».
+ 3. Glissez TOUT le contenu de ce dossier (y compris le dossier caché .github) et validez « Commit ».
+    Astuce : si le dossier .github ne s'envoie pas, créez le fichier à la main :
+    « Add file > Create new file », nom : .github/workflows/build.yml, et collez son contenu.
+ 4. Onglet « Actions » : la construction démarre seule (environ 5 minutes).
+ 5. Ouvrez la construction terminée (coche verte), section « Artifacts » : téléchargez MrPascal-apk.
+ 6. Décompressez : vous obtenez app-debug.apk. Envoyez-le sur votre téléphone (WhatsApp, câble, Drive).
+
+MÉTHODE 2 — Android Studio (sur ordinateur)
+ Ouvrez ce dossier dans Android Studio, puis menu Build > Build APK(s).
+
+INSTALLER SUR LE TÉLÉPHONE
+ Touchez le fichier .apk. Android demande d'autoriser « l'installation d'applications inconnues »
+ pour l'application utilisée (Fichiers, Chrome ou WhatsApp) : acceptez, puis « Installer ».
+
+BON À SAVOIR
+ - L'application fonctionne sans internet ; les données restent sur le téléphone.
+ - Elles sont séparées de la version web (claude.ai). Désinstaller l'application efface ses données :
+   utilisez de temps en temps « Copier le mois (CSV pour Excel) » pour garder une copie.
